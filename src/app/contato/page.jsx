@@ -1,12 +1,18 @@
+import { Button } from "@/components/ui/button";
+
+
 export default function PaginaContato() {
   return (
     <>
-      <main className="flex min-h-screen flex-col items-center justify-between p-24">
-        <h1>
-          Seja bem-vindo a Página de Contato do Trabalho de Versionamento de Software!
-          <br />
-        </h1>
-      </main>
+      <div className="flex flex-col w-screen h-screen justify-center items-center bg-gray-200">
+        <div id="box" className="flex flex-col justify-center items-center gap-12">
+          <h1 className="text-3xl font-bold text-gray-800">
+            Bem vindo a página de contato!
+          </h1>
+
+         <Button>Adicione Contatos</Button>
+        </div>
+      </div>
     </>
   );
 }
