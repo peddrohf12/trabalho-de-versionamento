@@ -1,16 +1,11 @@
 export default function Home() {
   return (
     <>
-      <main className="flex min-h-screen flex-col items-center justify-between p-24">
-        <h1>
-          Seja bem-vindo ao Trabalho de Versionamento de Software!
-          <br />
+      <div className="flex flex-col bg-gray-200 justify-center items-center w-screen h-screen">
+        <h1 className="text-3xl font-bold text-gray-800">
+          Bem vindo a página principal!
         </h1>
-        <p>
-          Todas as informações necessárias realização do trabalho encontra-se no
-          arquivo <span className="">README.md</span>
-        </p>
-      </main>
+      </div>
     </>
   );
 }
